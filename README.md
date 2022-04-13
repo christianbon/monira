@@ -1,2 +1,2 @@
 # monira
-Create a simple task monitoring app, using vue and golang
+Simple task monitoring app, using vue and golang
