@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/christianbon/monira">
-    <img src="Screenshot 2022-04-13 133601.png" alt="Logo" width="80" height="80">
+    <img src="Screenshot 2022-04-13 133601.png" alt="Logo" width="230" height="120">
   </a>
 
 <h3 align="center">Monira</h3>
