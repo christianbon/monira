@@ -1,12 +1,12 @@
 package migrations
 
 import (
-	tipe "monira/backend/database/type"
+	model "backend/database/models"
 
 	"gorm.io/gorm"
 )
 
-func migrateDatabase(db *gorm.DB) {
+func MigrationsDatabase(db *gorm.DB) {
 	// Migrate the schema
-	db.AutoMigrate(&tipe.User{}, &tipe.Role{}, &tipe.Project{}, &tipe.Task{}, &tipe.Column{}, &tipe.History{}, &tipe.UserProject{})
+	db.AutoMigrate(&model.User{}, &model.Role{}, &model.Project{}, &model.Task{}, &model.Column{}, &model.History{}, &model.UserProject{})
 }
